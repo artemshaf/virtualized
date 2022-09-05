@@ -1,0 +1,15 @@
+.even {
+  color: red;
+  margin-right: auto;
+  display: flex;
+}
+.odd {
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+  color: green;
+
+  & * {
+    margin-left: 3px;
+  }
+}
